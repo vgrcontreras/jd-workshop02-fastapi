@@ -28,7 +28,7 @@ produtos: List[Dict[str, any]] = [
 #criando rotas
 @app.get("/") # Request
 def ola_mundo(): # Response
-    return {"Olá": "Pessoal"}
+    return {"Olá": "Mundo"}
 
 @app.get("/produtos")
 def listar_produtos():
